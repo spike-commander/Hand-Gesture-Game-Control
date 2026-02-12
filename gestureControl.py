@@ -4,7 +4,7 @@ import pyautogui
 import time
 import math
 
-mp_hands = mp.solutions.hands
+mp_hands  = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)
 mp_draw = mp.solutions.drawing_utils
 
